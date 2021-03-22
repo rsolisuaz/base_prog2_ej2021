@@ -113,7 +113,7 @@ Para configurar ngrok, es necesario hacer lo siguiente:
    - C:\Users\NOMUSUARIO\.ngrok2\ngrok.yml (en Windows) 
    - /home/NOMUSUARIO/.ngrok2/ngrok.yml   (Linux)
    - /Users/NOMUSUARIO/.ngrok2/ngrok.yml  (MacOS)
-4. Abra el archivo de configuración creado en el paso anterior y agregue la siguientes líneas:
+4. Abra el archivo de configuración creado en el paso anterior y agregue las siguientes líneas (en el archivo ya debería haber una línea como la siguiente `authtoken: Hhshbshss64647SSHSHSY4636hy6346376373` :
 ```
 tunnels:
   glassfish:
