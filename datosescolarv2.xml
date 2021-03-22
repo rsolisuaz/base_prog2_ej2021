@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+    <carrera clave_carrera="COMP2005" nombre_carrera="Ingeniería en Computación"/>
+    <carrera clave_carrera="INGEI2017" nombre_carrera="Ingeniería en Electrónica Industrial"/>
+    <carrera clave_carrera="INGSW2010" nombre_carrera="Ingeniería de Software"/>
+    <materia clave_materia="CS201" nombre_materia="PROGRAMACIÓN ORIENTADA A OBJETOS I" semestre="2" clave_carrera="INGSW2010"/>
+    <materia clave_materia="CS202" nombre_materia="LAB DE PROGRAMACIÓN ORIENTADA A OBJETOS I" semestre="2" clave_carrera="INGSW2010"/>
+    <materia clave_materia="CS301" nombre_materia="PROGRAMACIÓN ORIENTADA A OBJETOS II" semestre="3" clave_carrera="INGSW2010"/>
+    <materia clave_materia="CS302" nombre_materia="LAB PROGRAMACIÓN ORIENTADA A OBJETOS II" semestre="3" clave_carrera="INGSW2010"/>
+    <materia clave_materia="IC501" nombre_materia="SISTEMAS OPERATIVOS" semestre="5" clave_carrera="COMP2005"/>
+    <materia clave_materia="IC601" nombre_materia="COMPILADORES E INTERPRETADORES" semestre="6" clave_carrera="COMP2005"/>
+    <materia clave_materia="MAT101" nombre_materia="ÁLGEBRA" semestre="1" clave_carrera="INGSW2010"/>
+    <materia clave_materia="MAT201" nombre_materia="ÁLGEBRA LINEAL" semestre="2" clave_carrera="INGSW2010"/>
+    <materia clave_materia="MAT301" nombre_materia="MATEMÁTICAS DISCRETAS" semestre="3" clave_carrera="INGSW2010"/>
+    <periodoescolar id_periodo="1" year="2017" periodo="1"/>
+    <periodoescolar id_periodo="2" year="2018" periodo="2"/>
+    <periodoescolar id_periodo="3" year="2018" periodo="1"/>
+    <periodoescolar id_periodo="4" year="2019" periodo="2"/>
+    <periodoescolar id_periodo="5" year="2019" periodo="1"/>
+    <periodoescolar id_periodo="6" year="2020" periodo="1"/>
+    <estudiante matricula="29807050" nombre="Mario" ap_paterno="Moreno" ap_materno="Martínez" calle="Av. Torreón 528" colonia="Centro" cod_postal="98000" telefono="4927654321" email="mmoreno@hotmail.com" id_estado="32" id_municipio="32056"/>
+    <estudiante matricula="30116543" nombre="Laura" ap_paterno="Villalobos" ap_materno="Sánchez" calle="Abasolo 289" colonia="Centro" cod_postal="98600" telefono="4926664422" email="lvillal@gmail.com" id_estado="32" id_municipio="32017"/>
+    <cargaestudiante id_carga_estudiante="1" matricula="29807050" clave_materia="CS202" id_periodo="1"/>
+    <cargaestudiante id_carga_estudiante="2" matricula="29807050" clave_materia="CS201" id_periodo="1"/>
+    <cargaestudiante id_carga_estudiante="3" matricula="30116543" clave_materia="IC501" id_periodo="1"/>
+    <cargaestudiante id_carga_estudiante="4" matricula="30116543" clave_materia="IC601" id_periodo="2"/>
+    <profesor rfc="SORR710721S9A" nombre="Roberto" ap_paterno="Solís" ap_materno="Robles" calle="Av. Hidalgo 205" colonia="Centro" cod_postal="98000" telefono="4921234567" email="rsolis@uaz.,edu.mx" id_estado="32" id_municipio="32056"/>
+    <profesor rfc="VARS780405J7B" nombre="Sodel" ap_paterno="Vázquez" ap_materno="Reyes" calle="Av. López Velarde 189" colonia="Centro" cod_postal="98000" telefono="4927775522" email="vazquezs@uaz.edu.mx" id_estado="32" id_municipio="32056"/>
+    <cargaprofesor id_carga_profesor="1" rfc="SORR710721S9A" clave_materia="IC501" id_periodo="1"/>
+    <cargaprofesor id_carga_profesor="2" rfc="SORR710721S9A" clave_materia="CS201" id_periodo="1"/>
+    <cargaprofesor id_carga_profesor="3" rfc="SORR710721S9A" clave_materia="CS202" id_periodo="1"/>
+    <cargaprofesor id_carga_profesor="4" rfc="SORR710721S9A" clave_materia="IC601" id_periodo="2"/>
+    <cargaprofesor id_carga_profesor="5" rfc="SORR710721S9A" clave_materia="CS301" id_periodo="2"/>
+    <cargaprofesor id_carga_profesor="6" rfc="SORR710721S9A" clave_materia="CS302" id_periodo="2"/>
+    <cargaprofesor id_carga_profesor="7" rfc="VARS780405J7B" clave_materia="MAT101" id_periodo="1"/>
+    <cargaprofesor id_carga_profesor="8" rfc="VARS780405J7B" clave_materia="MAT201" id_periodo="1"/>
+</dataset>

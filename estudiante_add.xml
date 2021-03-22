@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+    <estudiante matricula="29807050" nombre="Mario" ap_paterno="Moreno" ap_materno="Martínez" calle="Av. Torreón 528" colonia="Centro" cod_postal="98000" telefono="4927654321" email="mmoreno@hotmail.com" id_estado="32" id_municipio="32056"/>
+    <estudiante matricula="30116543" nombre="Laura" ap_paterno="Villalobos" ap_materno="Sánchez" calle="Abasolo 289" colonia="Centro" cod_postal="98600" telefono="4926664422" email="lvillal@gmail.com" id_estado="32" id_municipio="32017"/>
+    <estudiante matricula="31081514" nombre="Miguel" ap_paterno="Salas" ap_materno="Guzman" calle="Herreros 25" colonia="Centro" cod_postal="99104" telefono="4331234567" email="misalas@uaz.edu.mx" id_estado="32" id_municipio="32042"/>
+</dataset>

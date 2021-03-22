@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+    <estudiante matricula="29807050" nombre="Mario" ap_paterno="Moreno" ap_materno="Martínez" calle="Av. Torreón 528" colonia="Centro" cod_postal="98000" telefono="4927654321" email="mmoreno@hotmail.com" id_estado="32" id_municipio="32056"/>
+    <estudiante matricula="30116543" nombre="Laura" ap_paterno="Villalobos" ap_materno="Sánchez" calle="Abasolo 289" colonia="Centro" cod_postal="98600" telefono="4926664422" email="lvillal@gmail.com" id_estado="32" id_municipio="32017"/>
+</dataset>
